@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 class Landing extends Component {
   render() {
     return (
-      <Router>
         <div style={{ height: "75vh" }} className="container valign-wrapper">
           <div className="row">
             <div className="col s12 center-align">
@@ -46,7 +45,6 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-      </Router>
     );
   }
 }

@@ -28,8 +28,8 @@ connection.once("open", () => {
 });
 
 // //passport config
-// app.use(passport.initialize());
-// require("./config/passport")(passport);
+app.use(passport.initialize());
+require("./config/passport")(passport);
 //routes config 
 app.use("/api/users", users);
 
